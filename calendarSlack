@@ -10,12 +10,12 @@ $minute = $a.Minute
 function HelloSlack($subject, $time){
     $payload = @{
     "token" = "PU2WkysIPVBdWVVO5lUm4S6o";
-	"channel" = "audpodge";
+	"channel" = "channelnamehere";
     "text" = ":rocket: *REMINDER BOT* :rocket: `n You have an event coming up on $($time) `n For: $($subject)";
 
    
     }
-    Invoke-WebRequest -Uri "https://hooks.slack.com/services/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" -Method "POST" -Body (ConvertTo-Json -Compress -InputObject $payload)
+    Invoke-WebRequest -Uri "can obtain this here: https://t-mo.slack.com/apps/new/A0F7XDUAZ-incoming-webhooks " -Method "POST" -Body (ConvertTo-Json -Compress -InputObject $payload)
 }
 
 #connect to outlook
