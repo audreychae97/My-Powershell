@@ -1,8 +1,9 @@
 # My-Powershell
-Just a place for me to practice and improve PowerShell!
+A powershell script that connects to the user's Outlook account to view the calendar events and meetings. Pulls the data for a specified amount of day(s), and sends a notification to my Slack channel. 
 
-A PowerShell script that connects to my outlook calendar to check for upcoming events and meetings. The desired time frame for events can be changed as well. 
-Every morning at 8AM, the script runs and alerts to my Slack channel the events I have for that day! 
+The script is called when my computer re-boots in the morning, or every morning at 8AM. 
 
 This project was inspired by the automation scripts my Team at T-Mobile was writing.
+
+
 
